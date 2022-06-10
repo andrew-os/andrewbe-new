@@ -1,13 +1,13 @@
+import YearToday from './YearToday'
+
 interface FooterProps{
     children?: React.ReactNode|React.ReactNode[];
-    date: Date
 }
-export default function Footer({date}: FooterProps){
+export default function Footer({}: FooterProps){
     return(
         <footer className="bg-teal-500 flex flex-row justify-between px-5">
             <div>
-                &copy; andrewbeme
-                date and text
+                &copy; <YearToday /> andrewbeme
             </div>
             <div>
                 <ul className="flex flex-row">

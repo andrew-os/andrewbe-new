@@ -1,9 +1,9 @@
 interface TextProps{
-    text: string
+    children: React.ReactNode|React.ReactNode[];
 }
 
-export default function TextBody({text}: TextProps){
+export default function TextBody({children}: TextProps){
     return (
-        <p>{text}</p>
+        <p>{children}</p>
     )
 }
