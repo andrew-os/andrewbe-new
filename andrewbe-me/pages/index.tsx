@@ -3,12 +3,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
 import PageHeader from '../components/PageHeader'
+import ExperienceYears from '../components/ExperienceYears'
 import TextBody from '../components/TextBody'
 import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
-  const date = new Date()
-  const yearsOfDeving: number = date.getFullYear() - 2013
   return (
     <div className='min-h-screen flex flex-col'>
       <Head>
@@ -20,7 +19,7 @@ const Home: NextPage = () => {
       <main className='flex flex-1 flex-col'>
         <PageHeader pageTitle='Hello :)' />
         <TextBody>My name is Andrew</TextBody>
-        <TextBody>I’m a web developer of {yearsOfDeving} years</TextBody>
+        <TextBody>I’m a web developer of <ExperienceYears /></TextBody>
         <TextBody>I like to code, hack and adventure life away</TextBody>
         <TextBody>Current Location: <b>Kaikoura NZ</b></TextBody>
       </main>
