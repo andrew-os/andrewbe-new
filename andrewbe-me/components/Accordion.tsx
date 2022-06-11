@@ -11,7 +11,7 @@ const Accordion = ({ title, content }: AccordionProps) => {
   return (
     <div className="accordion-item flex flex-col">
       <div className="accordion-title flex flex-row justify-between" onClick={() => setIsActive(!isActive)}>
-        <div>{title}</div>
+        <h3 className='font-ultra text-xl'>{title}</h3>
         <div>{isActive ? '-' : '+'}</div>
       </div>
       {isActive && <ul className="accordion-content">{

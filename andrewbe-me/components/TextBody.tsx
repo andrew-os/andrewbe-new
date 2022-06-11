@@ -4,6 +4,6 @@ interface TextProps{
 
 export default function TextBody({children}: TextProps){
     return (
-        <p>{children}</p>
+        <p className="font-slabo">{children}</p>
     )
 }

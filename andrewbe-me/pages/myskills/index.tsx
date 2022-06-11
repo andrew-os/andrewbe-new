@@ -8,8 +8,8 @@ import { accordionData } from '../../utils/content';
 const MySkills: NextPage = () => {
     return(
         <div>
-            <h1>Test MySkills</h1>
-            <h2>Experience <span><ExperienceYears /></span></h2>
+            <h1 className="font-ultra text-6xl">MySkills</h1>
+            <h2 className="text-4xl font-ultra">Experience <span><ExperienceYears /></span></h2>
             <main>
                 <TextBody>I have been contracting as a Frontend Engineer, primarily using Javascript, since 2019. Contracting for international and national clients.</TextBody>
                 <TextBody>I have been actively pursuing more engineer based roles and my latest contract was a React Native App for <a href="https://scannable.io">Scannable.io</a></TextBody>
