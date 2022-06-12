@@ -6,6 +6,7 @@ import PageHeader from '../../components/PageHeader'
 import ExperienceYears from '../../components/ExperienceYears'
 import TextBody from '../../components/TextBody'
 import PortfolioList from '../../components/PorftolioList'
+import RecentProjectList from '../../components/RecentProjectList'
 
 const Portfolio: NextPage = () => {
     return(
@@ -19,12 +20,8 @@ const Portfolio: NextPage = () => {
                     <TextBody>These are websites I’ve built and worked on recently that showcase different designs, features and coding methods:</TextBody>
                     <h2 className="text-3xl font-ultra">Most Recent Projects</h2>
 
-                    <div className='grid md:grid-cols-3'>
-                        
-                    </div>
-
-
-                    
+                    <RecentProjectList />
+            
                 </main>
                 <PortfolioList />
             </div>
