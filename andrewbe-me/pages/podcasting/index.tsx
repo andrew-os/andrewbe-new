@@ -8,7 +8,7 @@ const Podcasting: NextPage = () => {
     return(
         <div className='min-h-screen flex flex-col'>
             <Header />
-            <div className='flex flex-1 flex-col'>
+            <div className='flex flex-1 flex-col container mx-auto'>
                 <PageHeader pageTitle='Hello Podcasting' />
                 <main>
                     <TextBody>Combining a love for Radio, Film and Podcast with a BSc in Audio and Acoustics, I was co-hosting and producing a weekly movie podcast while in London</TextBody>

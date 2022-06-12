@@ -12,7 +12,7 @@ const MySkills: NextPage = () => {
     return(
         <div className='min-h-screen flex flex-col'>
             <Header />
-            <div className='flex flex-1 flex-col'>
+            <div className='flex flex-1 flex-col container mx-auto'>
                 <PageHeader pageTitle='MySkills' />
                 <h2 className="text-4xl font-ultra">Experience <span><ExperienceYears /></span></h2>
                 <main>

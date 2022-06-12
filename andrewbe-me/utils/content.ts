@@ -33,6 +33,7 @@ export const accordionData = [
       `Gulp`,
       `BitBucket`,
       `Figma`,
+      `Invision`,
      ` Sketch`,
       `Photoshop`,
      ` Zeplin`,
@@ -54,8 +55,8 @@ export const accordionData = [
   export const recentProjects = [
       {
           title: 'Scannable.io',
-          link: '',
-          content: '',
+          link: 'https://scannable.io',
+          content: 'Native app using QR, Barcodes and NFC tags to search and log height safety equipment for user. (App store July 22)',
           stack: [
             `React Native`,
             `Typescript`,
@@ -68,7 +69,7 @@ export const accordionData = [
       },
       {
           title: 'Holmes',
-          link: '',
+          link: 'https://holmes-app.com/',
           content: `Property reporting website/web app. Custom React/NextJS build from Scratch. UI/UX built from invision design. Custom React forms submitting state to Firebase backend `,
           stack: [
               `ReactJS`,
@@ -80,7 +81,7 @@ export const accordionData = [
       {
           title: 'Orlando Ballet',
           link: 'https://orlandoballet.org/',
-          content: '',
+          content: 'Wordpress site with custom design system from scratch',
           stack: [
               `Wordpress`,
               `Twig/Timber`,
