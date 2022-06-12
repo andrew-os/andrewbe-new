@@ -79,7 +79,7 @@ export const accordionData = [
       },
       {
           title: 'Orlando Ballet',
-          link: '',
+          link: 'https://orlandoballet.org/',
           content: '',
           stack: [
               `Wordpress`,
@@ -88,4 +88,51 @@ export const accordionData = [
               `Saas`,
           ]
       }
+  ]
+
+  export const portfolioList = [
+    {
+      title: 'Cabaret',
+      link: 'https://kitkat.club/cabaret-london/'
+    },
+    {
+      title: 'Agl Communication',
+      link: 'https://www.aglcommunication.com/'
+    },
+    {
+      title: 'Studio Canal',
+      link: 'https://www.studiocanal.com/'
+    },
+    {
+      title: 'Harry Potter and the Cursed Child (UK,US,DE, AU)',
+      link: 'https://www.harrypottertheplay.com'
+    },
+    {
+      title: 'This website in Vue',
+      link: 'https://andrewbe-nuxt.netlify.app/'
+    },
+    {
+      title: 'NY Perenial Garden Vue App',
+      link: 'https://pg.nybg.org/#/'
+    },
+    {
+      title: 'Lumiere',
+      link: 'https://www.lumiere-festival.com/'
+    },
+    {
+      title: 'Punchdrunk',
+      link: 'https://www.punchdrunk.com/'
+    },
+    {
+      title: 'Edge New York',
+      link: 'https://www.edgenyc.com/'
+    },
+    {
+      title: 'The View from the Shard',
+      link: 'https://www.theviewfromtheshard.com/'
+    },
+    {
+      title: 'SkatePal',
+      link: 'https://www.skatepal.co.uk/'
+    }
   ]

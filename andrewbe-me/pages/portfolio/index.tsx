@@ -1,9 +1,11 @@
 import type { NextPage } from 'next'
+import Link from 'next/link'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import PageHeader from '../../components/PageHeader'
 import ExperienceYears from '../../components/ExperienceYears'
 import TextBody from '../../components/TextBody'
+import PortfolioList from '../../components/PorftolioList'
 
 const Portfolio: NextPage = () => {
     return(
@@ -17,23 +19,14 @@ const Portfolio: NextPage = () => {
                     <TextBody>These are websites I’ve built and worked on recently that showcase different designs, features and coding methods:</TextBody>
                     <h2 className="text-3xl font-ultra">Most Recent Projects</h2>
 
-                    <div>
-                        {/* card of latest three in grid */}
+                    <div className='grid md:grid-cols-3'>
+                        
                     </div>
 
-                    <div>
-                        {/* list of other sites https://www.akauk.com/ cabaret studiocanal orlando ballet agl communication harry potter This website in Vue
-Punchdrunk
-Edge New York
-Lumiere
-New York Perennial Garden (Vue app)
-Fairfield Halls
-Harrypotter - us/uk/au/de
-The View from The Shard (Vue components inc.)
-Skatepal */}
-                    </div>
+
                     
                 </main>
+                <PortfolioList />
             </div>
             <Footer />
         </div>
