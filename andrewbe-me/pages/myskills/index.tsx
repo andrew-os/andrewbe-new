@@ -12,10 +12,10 @@ const MySkills: NextPage = () => {
     return(
         <div className='min-h-screen flex flex-col'>
             <Header />
-            <div className='flex flex-1 flex-col container mx-auto'>
+            <div className='flex flex-1 flex-col container mx-auto my-10'>
                 <PageHeader pageTitle='MySkills' />
-                <h2 className="text-4xl font-ultra">Experience <span><ExperienceYears /></span></h2>
-                <main>
+                {/* <h2 className="text-4xl font-ultra">Experience <span><ExperienceYears /></span></h2> */}
+                <main className='my-4'>
                     <TextBody>I have been contracting as a Frontend Engineer, primarily using Javascript, since 2019. Contracting for international and national clients.</TextBody>
                     <TextBody>I have been actively pursuing more engineer based roles and my latest contract was a React Native App for <a href="https://scannable.io">Scannable.io</a></TextBody>
                     <TextBody>I spent the years 2016 - 2019 working purely as a Front End Developer, in London.</TextBody>

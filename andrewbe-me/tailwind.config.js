@@ -11,6 +11,9 @@ module.exports = {
       fontFamily: {
         'ultra': ['Ultra', 'serif'],
         'slabo': ['"Slabo 13px"', 'serif'],
+      },
+      fontSize: {
+        'xxs': ['10px', '18px']
       }
     },
   },

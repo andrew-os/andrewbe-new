@@ -63,16 +63,13 @@ export const accordionData = [
             `Typescript`,
             `Tailwind`,
             `Apollo + Graphql`,
-            `Prisma`,
-            `Docker`,
-            `PostGres`,
         ]
       },
       {
           title: 'Holmes',
           link: 'https://holmes-app.com/',
           image: '/../public/holmes-bg-img.jpg',
-          content: `Property reporting website/web app. Custom React/NextJS build from Scratch. UI/UX built from invision design. Custom React forms submitting state to Firebase backend `,
+          content: `Property reporting website/web app. Custom React/NextJS build from Scratch. Custom React forms submitting state to Firebase backend `,
           stack: [
               `ReactJS`,
               `NextJS`,

@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className='flex flex-1 flex-col container mx-auto'>
+      <main className='flex flex-1 flex-col container mx-auto my-10'>
         <PageHeader pageTitle='Hello :)' />
         <TextBody>My name is Andrew</TextBody>
         <TextBody>I’m a web developer of <ExperienceYears /></TextBody>
