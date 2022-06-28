@@ -17,7 +17,7 @@ const Portfolio: NextPage = () => {
                 <h2 className="text-4xl font-ultra mt-1">Experience <span><ExperienceYears /></span></h2>
                 <main className='my-4'>
                     <article className='py-4'>
-                        <TextBody>Having worked as a Frontend developer for numerous years I have worked on 100's of websites.</TextBody>
+                        <TextBody>Having worked as a Frontend developer for numerous years I have worked on 100&apos;s of websites.</TextBody>
                     </article>
                     <h2 className="text-3xl font-ultra">Most Recent Projects</h2>
 
