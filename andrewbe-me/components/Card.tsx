@@ -19,13 +19,13 @@ export default function Card({title, link,image, content, tags}: CardProps){
                         <header>
                             <h3 className="text-center font-ultra text-xl text-white">{title}</h3>
                         </header>
-                        <article className='flex-1'>
+                        <article className='flex-1 text-center'>
                             <p className="text-center text-sm py-4 text-white">{content}</p>
                         </article>
 
                         <footer className='my-2'>
                         <div className='text-center py-4'>
-                            <a href={link} rel="noreferrer" target="_blank" className='text-center rounded-xl border-white border px-3 py-1 text-white w-full'>Visit</a>
+                            <a href={link} rel="noreferrer" target="_blank" className='text-center rounded-xl border-yellow bg-yellow border px-3 py-1 text-primary w-full'>Visit</a>
                         </div>
                             <ul className="flex flex-row items-center justify-center flex-wrap">
                                 {tags.map((tag) =>(

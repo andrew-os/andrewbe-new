@@ -14,12 +14,12 @@ const Portfolio: NextPage = () => {
             <Header />
             <div className='flex flex-1 flex-col container mx-auto my-10'>
                 <PageHeader pageTitle='Portfolio' />
-                <h2 className="text-4xl font-ultra mt-1">Experience <span><ExperienceYears /></span></h2>
+                <h2 className="text-4xl font-ultra mt-1 text-primary">Experience <span><ExperienceYears /></span></h2>
                 <main className='my-4'>
                     <article className='py-4'>
                         <TextBody>Having worked as a Frontend developer for numerous years I have worked on 100&apos;s of websites.</TextBody>
                     </article>
-                    <h2 className="text-3xl font-ultra">Most Recent Projects</h2>
+                    <h2 className="text-3xl font-ultra text-primary">Most Recent Projects</h2>
 
                     <RecentProjectList />
             

@@ -5,7 +5,7 @@ interface FooterProps{
 }
 export default function Footer({}: FooterProps){
     return(
-        <footer className="bg-teal-500 flex flex-row justify-between px-5">
+        <footer className="bg-brand-pink flex flex-row justify-between px-5 py-4">
             <div>
                 &copy; <YearToday /> andrewbeme
             </div>

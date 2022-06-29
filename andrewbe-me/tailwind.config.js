@@ -14,7 +14,13 @@ module.exports = {
       },
       fontSize: {
         'xxs': ['10px', '18px']
-      }
+      },
+      colors: {
+        'primary': '#125B50',
+        'yellow': '#F8B400',
+        'brand-white': '#FAF5E4',
+        'brand-pink': '#FF6363',
+      },
     },
   },
   plugins: [],

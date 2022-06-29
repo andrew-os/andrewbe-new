@@ -26,7 +26,7 @@ const MySkills: NextPage = () => {
                 </main>
                 <div>
                     <p>To view my portfolio</p>
-                    <Link href="/portfolio"><a>Click here</a></Link> 
+                    <Link href="/portfolio"><a className='underline decoration-brand-pink text-primary underline-offset-4'>Click here</a></Link> 
                 </div>
                 <div className="accordion">
                 {accordionData.map(({ title, content}) => (

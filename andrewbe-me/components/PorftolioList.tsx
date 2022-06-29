@@ -6,7 +6,7 @@ export default function PortfolioList(){
         <div>
             <ul>
                 {portfolioList.map(({title, link}) => (
-                    <li key={title}>
+                    <li key={title} className="my-2">
                         <PortfolioListItem title={title} link={link} />
                     </li>
                 ))}
