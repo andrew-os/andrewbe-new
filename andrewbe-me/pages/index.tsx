@@ -17,10 +17,12 @@ const Home: NextPage = () => {
       <Header />
       <main className='flex flex-1 flex-col container mx-auto my-10 '>
         <PageHeader pageTitle='Hello :)' />
-        <TextBody>My name is Andrew</TextBody>
-        <TextBody>I’m a web developer of <ExperienceYears /></TextBody>
-        <TextBody>I like to code, hack and adventure life away</TextBody>
-        <TextBody>Current Location: <b>Kaikoura NZ</b></TextBody>
+        <article className='pb-4 pt-10'>
+          <TextBody>My name is Andrew</TextBody>
+          <TextBody>I’m a web developer of <ExperienceYears /></TextBody>
+          <TextBody>I like to code, hack and adventure life away</TextBody>
+          <TextBody>Current Location: <span className='underline decoration-brand-pink underline-offset-4'>United Kingdom</span></TextBody>
+        </article>
       </main>
 
       <Footer />

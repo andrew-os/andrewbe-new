@@ -15,7 +15,7 @@ const MySkills: NextPage = () => {
             <div className='flex flex-1 flex-col container mx-auto my-10'>
                 <PageHeader pageTitle='MySkills' />
                 {/* <h2 className="text-4xl font-ultra">Experience <span><ExperienceYears /></span></h2> */}
-                <main className='my-4'>
+                <main className='pb-4 pt-10'>
                     <TextBody>I have been contracting as a Frontend Engineer, primarily using Javascript, since 2019. Contracting for international and national clients.</TextBody>
                     <TextBody>I have been actively pursuing more engineer based roles and my latest contract was a React Native App for <a href="https://scannable.io">Scannable.io</a></TextBody>
                     <TextBody>I spent the years 2016 - 2019 working purely as a Front End Developer, in London.</TextBody>
@@ -24,16 +24,16 @@ const MySkills: NextPage = () => {
                     <TextBody>I have worked and developed themes with the following Content Management Systems: Wordpress, SquareSpace, Shopify, Contentful, Netlify.</TextBody>
                     <TextBody>I actively subscribe to various different mediums to stay current with web and software tech and am always trying to push myself to learn new coding techniques and standards.</TextBody>
                 </main>
-                <div>
-                    <p>To view my portfolio</p>
-                    <Link href="/portfolio"><a className='underline decoration-brand-pink text-primary underline-offset-4'>Click here</a></Link> 
+                <div className='flex my-4'>
+                    <TextBody>To view my portfolio </TextBody>
+                    <Link href="/portfolio"><a className='underline decoration-brand-pink text-primary underline-offset-4 ml-1'>Click here</a></Link> 
                 </div>
                 <div className="accordion">
                 {accordionData.map(({ title, content}) => (
                 <Accordion title={title} content={content} key={title} />
                 ))}
             </div>
-            <div>
+            <div className='my-4'>
                 <TextBody>I’m always developing, improving and keen to learn in all walks of life.
                     Right now I’m learning: C++, French, Adobe Illustrator, Networking.</TextBody>
                 <TextBody>

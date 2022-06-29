@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
  // tailwind.config.js
-
+ const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -11,6 +11,7 @@ module.exports = {
       fontFamily: {
         'ultra': ['Ultra', 'serif'],
         'slabo': ['"Slabo 13px"', 'serif'],
+        'sans': ['slabo', ...defaultTheme.fontFamily.sans]
       },
       fontSize: {
         'xxs': ['10px', '18px']

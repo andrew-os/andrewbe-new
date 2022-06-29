@@ -2,6 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Slabo 13px', serif;
+  }
+}
 a {
   color: inherit;
   text-decoration: none;

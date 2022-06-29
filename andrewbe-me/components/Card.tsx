@@ -11,13 +11,13 @@ interface CardProps{
 export default function Card({title, link,image, content, tags}: CardProps){
     return(
 
-        <div className="flex px-5 py-3 shadow-xl relative">
+        <div className="flex px-5 py-3 shadow-xl relative justify-center">
             <div className="z-20 bg-black opacity-70 h-full w-full absolute top-0 left-0"></div>
                 <Image src={image} alt={`${title} image`} layout="fill" objectFit='cover' />
                     <div className='z-30 flex flex-col'>
                         {/* <div className='flex-1'> */}
                         <header>
-                            <h3 className="text-center font-ultra text-xl text-white">{title}</h3>
+                            <h3 className="text-center font-ultra md:text-xl text-lg text-white">{title}</h3>
                         </header>
                         <article className='flex-1 text-center'>
                             <p className="text-center text-sm py-4 text-white">{content}</p>
