@@ -14,7 +14,7 @@ const MySkills: NextPage = () => {
             <Header />
             <div className='flex flex-1 flex-col container mx-auto my-10'>
                 <PageHeader pageTitle='MySkills' />
-                {/* <h2 className="text-4xl font-ultra">Experience <span><ExperienceYears /></span></h2> */}
+                {/* <h2 className="text-4xl font-worksans">Experience <span><ExperienceYears /></span></h2> */}
                 <main className='my-4'>
                     <TextBody>I have been contracting as a Frontend Engineer, primarily using Javascript, since 2019. Contracting for international and national clients.</TextBody>
                     <TextBody>I have been actively pursuing more engineer based roles and my latest contract was a React Native App for <a href="https://scannable.io">Scannable.io</a></TextBody>
@@ -26,7 +26,7 @@ const MySkills: NextPage = () => {
                 </main>
                 <div>
                     <p>To view my portfolio</p>
-                    <Link href="/portfolio"><a>Click here</a></Link> 
+                    <Link href="/portfolio"><a>Click here</a></Link>
                 </div>
                 <div className="accordion">
                 {accordionData.map(({ title, content}) => (

@@ -17,7 +17,7 @@ export default function Card({title, link,image, content, tags}: CardProps){
                     <div className='z-30 flex flex-col'>
                         {/* <div className='flex-1'> */}
                         <header>
-                            <h3 className="text-center font-ultra text-xl text-white">{title}</h3>
+                            <h3 className="text-center font-worksans text-xl text-white">{title}</h3>
                         </header>
                         <article className='flex-1'>
                             <p className="text-center text-sm py-4 text-white">{content}</p>
