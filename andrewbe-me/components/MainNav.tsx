@@ -1,14 +1,32 @@
 import Link from "next/link"
-export default function MainNav(){
-    return (
-    <ul className="flex flex-row justify-evenly">
-        <li>
-            <Link href="/"><a>Home</a></Link>
-        </li>
-        <li> <Link href="/myskills"><a>MySkills</a></Link></li>
-        <li> <Link href="/portfolio"><a>Portfolio</a></Link></li>
-        <li> <Link href="/podcasting"><a>Podcasting</a></Link></li>
-        <li> <Link href="/contact"><a>Contact</a></Link></li>
-    </ul>
+import { useRouter } from 'next/router';
+export default function MainNav() {
+  const router = useRouter();
+  return (
+    <nav>
+      <ul className="flex flex-row justify-evenly">
+          <li className="nav-link">
+            <Link href="/">
+              <a className={`${router.pathname == "/" ? "active" : ""} px-6 py-12 flex`}>Home</a></Link>
+          </li>
+          <li className="nav-link">
+            <Link href="/myskills">
+              <a className={`${router.pathname == "/myskills" ? "active" : ""} px-6 py-12 flex`}>MySkills</a>
+            </Link>
+          </li>
+          <li className="nav-link">
+            <Link href="/portfolio">
+              <a className={`${router.pathname == "/portfolio" ? "active" : ""} px-6 py-12 flex`}>Portfolio</a>
+            </Link></li>
+          <li className="nav-link">
+            <Link href="/podcasting">
+              <a className={`${router.pathname == "/podcasting" ? "active" : ""} px-6 py-12 flex`}>Podcasting</a>
+            </Link>
+          </li>
+          <li className="nav-link">
+            <Link href="/contact">
+            <a className={`${router.pathname == "/contact" ? "active" : ""} px-6 py-12 flex`}>Contact</a></Link></li>
+        </ul>
+      </nav>
     )
 }

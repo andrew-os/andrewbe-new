@@ -4,7 +4,7 @@ interface PageHeaderProps{
 
 export default function PageHeader({pageTitle}: PageHeaderProps){
     return(
-        <h1 className="font-worksans text-7xl">
+        <h1 className="font-worksans">
             {pageTitle}
         </h1>
     )

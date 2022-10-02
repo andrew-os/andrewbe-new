@@ -22,6 +22,18 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+.nav-link a{
+  color: #F17c3A;
+  	font-size: 1.25rem; /* 20px */
+    line-height: 1.75rem; /* 28px */
+}
+.nav-link .active{
+  background: #E0E1DD;
+}
+.gradient-line{
+  background: linear-gradient(90deg, #5A3FD9 0%, #A029C3 14.29%, #CA08A9 28.57%, #E4008E 42.86%, #F42374 57.14%, #FA445C 71.43%, #F86149 85.71%, #F17C3A 100%);
 }
 
 /* background: linear-gradient(360deg, #5a3fd9, #a029c3, #ca08a9, #e4008e, #f42374, #fa445c, #f86149, #f17c3a); */

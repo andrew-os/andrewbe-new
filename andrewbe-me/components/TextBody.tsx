@@ -4,6 +4,6 @@ interface TextProps{
 
 export default function TextBody({children}: TextProps){
     return (
-        <p className="font-worksans text-lg">{children}</p>
+        <p className="font-worksans text-lg pb-8">{children} </p>
     )
 }
