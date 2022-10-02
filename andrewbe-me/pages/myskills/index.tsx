@@ -12,7 +12,7 @@ const MySkills: NextPage = () => {
     return(
         <div className='min-h-screen flex flex-col'>
             <Header />
-            <div className='flex flex-1 flex-col container mx-auto mt-28'>
+            <div className='flex flex-1 flex-col container mx-auto mt-28 mb-48'>
                 <PageHeader pageTitle='MySkills' />
                 {/* <h2 className="text-4xl font-worksans">Experience <span><ExperienceYears /></span></h2> */}
           <main className='my-10 grid grid-cols-12'>

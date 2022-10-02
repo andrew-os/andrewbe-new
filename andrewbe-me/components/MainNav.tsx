@@ -1,14 +1,19 @@
 import Link from "next/link"
 import { useRouter } from 'next/router';
-export default function MainNav() {
+
+interface MainNavProps{
+  invertColors: boolean
+}
+
+export default function MainNav({invertColors}: MainNavProps) {
   const router = useRouter();
   return (
-    <nav>
+    <nav className={`${invertColors ? `home-nav` : `page-nav`}`}>
       <ul className="flex flex-row justify-evenly">
-          <li className="nav-link">
+          {/* <li className="nav-link">
             <Link href="/">
               <a className={`${router.pathname == "/" ? "active" : ""} px-6 py-12 flex`}>Home</a></Link>
-          </li>
+          </li> */}
           <li className="nav-link">
             <Link href="/myskills">
               <a className={`${router.pathname == "/myskills" ? "active" : ""} px-6 py-12 flex`}>MySkills</a>

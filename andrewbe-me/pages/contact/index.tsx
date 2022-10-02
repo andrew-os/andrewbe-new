@@ -8,13 +8,13 @@ const Contact: NextPage = () => {
     return(
         <div className='min-h-screen flex flex-col'>
         <Header />
-        <div className='flex flex-1 flex-col container mx-auto'>
+        <div className='flex flex-1 flex-col container mx-auto mt-28 mb-48'>
             <PageHeader pageTitle='Contact me' />
             <main>
                 <TextBody>I am on my emails through the Mon - Fri week and will usually respond within 24hours.</TextBody>
                 <TextBody>Its best to contact me on email.</TextBody>
                 <TextBody>Email me at - <a href="mailto:andrew.sleighweb@gmail.com">andrew.sleighweb@gmail.com</a></TextBody>
-                
+
             </main>
 
             <div className='mt-4'>

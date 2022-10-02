@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 interface CardProps{
     title: string;
@@ -11,27 +13,36 @@ interface CardProps{
 export default function Card({title, link,image, content, tags}: CardProps){
     return(
 
-        <div className="flex px-5 py-3 shadow-xl relative">
-            <div className="z-20 bg-black opacity-70 h-full w-full absolute top-0 left-0"></div>
-                <Image src={image} alt={`${title} image`} layout="fill" objectFit='cover' />
-                    <div className='z-30 flex flex-col'>
+        <div className="flex px-4 pt-6 pb-3 shadow-xl relative bg-brand-grey rounded-main">
+                {/* <Image src={image} alt={`${title} image`} layout="fill" objectFit='cover' /> */}
+            <div className='z-30 flex flex-col'>
                         {/* <div className='flex-1'> */}
-                        <header>
-                            <h3 className="text-center font-worksans text-xl text-white">{title}</h3>
-                        </header>
-                        <article className='flex-1'>
-                            <p className="text-center text-sm py-4 text-white">{content}</p>
-                        </article>
+          <div className='flex flex-row'>
+            <div className='w-16 h-16 relative mr-5'>
+              <Image src={image} alt={`${title} image`} layout="fixed" width="64" height="57" objectFit='cover' />
+            </div>
+            <div className='flex flex-col'>
+              <h3 className="font-worksans">{title}</h3>
+              <article className='flex-1'>
+                <p className="text-sm py-3">{content}</p>
+              </article>
+            </div>
+
+          </div>
+
 
                         <footer className='my-2'>
-                        <div className='text-center py-4'>
-                            <a href={link} rel="noreferrer" target="_blank" className='text-center rounded-xl border-white border px-3 py-1 text-white w-full'>Visit</a>
-                        </div>
-                            <ul className="flex flex-row items-center justify-center flex-wrap">
+                          <div className='flex flex-row items-center py-4 '>
+
+                            <ul className="flex flex-row items-center flex-wrap flex-1">
                                 {tags.map((tag) =>(
-                                    <li className="text-xxs px-2 text-white" key={tag}>{tag}</li>
+                                    <li className="text-xxs px-2 text-secondary font-semibold" key={tag}>{tag}</li>
                                 ))}
                             </ul>
+                            <a href={link} rel="noreferrer" target="_blank" className='self-end'>
+                              <FontAwesomeIcon icon={faArrowRight} className="text-primary" />
+                            </a>
+                          </div>
                         </footer>
                         {/* </div> */}
                     </div>

@@ -32,8 +32,28 @@ a {
 .nav-link .active{
   background: #E0E1DD;
 }
+
+.home-nav .nav-link a{
+  color: white;
+}
+.home-nav .nav-link .active{
+  background: none;
+}
 .gradient-line{
   background: linear-gradient(90deg, #5A3FD9 0%, #A029C3 14.29%, #CA08A9 28.57%, #E4008E 42.86%, #F42374 57.14%, #FA445C 71.43%, #F86149 85.71%, #F17C3A 100%);
+}
+.link--has-underline{
+  position: relative;
+  display: block;
+}
+.link--has-underline:hover::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  background: #F17C3A;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
 }
 
 /* background: linear-gradient(360deg, #5a3fd9, #a029c3, #ca08a9, #e4008e, #f42374, #fa445c, #f86149, #f17c3a); */

@@ -20,6 +20,9 @@ module.exports = {
         'secondary': '#5A3FD9',
         'brand-slate': '#373F51',
         'brand-grey': '#E0E1DD',
+      },
+      borderRadius: {
+        'main': '7px',
       }
     },
   },

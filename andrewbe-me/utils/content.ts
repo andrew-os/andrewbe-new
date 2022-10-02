@@ -52,12 +52,25 @@ export const accordionData = [
     }
   ];
 
-  export const recentProjects = [
+export const recentProjects = [
+        {
+          title: 'Calo',
+          link: 'https://orlandoballet.org/',
+          image: '/../public/calo-icon.png',
+          content: 'Rebranding of a digital agency site. Vue 3 with a strapi backend',
+          stack: [
+              `Vue3`,
+              `Strapi`,
+              `unocss`,
+            `grapQl`,
+              `Sketch`
+          ]
+      },
       {
           title: 'Scannable.io',
           link: 'https://scannable.io',
-          image: '/../public/scn-bg-img.jpg',
-          content: 'Native app using QR, Barcodes and NFC tags to search and log height safety equipment for user. (App store July 22)',
+          image: '/../public/scan-iconBackground.png',
+          content: 'Native app using QR, Barcodes and NFC tags to search and log height safety equipment for user.',
           stack: [
             `React Native`,
             `Typescript`,
@@ -68,8 +81,8 @@ export const accordionData = [
       {
           title: 'Holmes',
           link: 'https://holmes-app.com/',
-          image: '/../public/holmes-bg-img.jpg',
-          content: `Property reporting website/web app. Custom React/NextJS build from Scratch. Custom React forms submitting state to Firebase backend `,
+          image: '/../public/holmes-logo.png',
+          content: `Property reporting web app. Custom React/NextJS build from Scratch. Custom React forms submitting state to Firebase backend`,
           stack: [
               `ReactJS`,
               `NextJS`,
@@ -77,18 +90,7 @@ export const accordionData = [
               `Firebase`,
           ]
       },
-      {
-          title: 'Orlando Ballet',
-          link: 'https://orlandoballet.org/',
-          image: '/../public/ob-bg-img.jpg',
-          content: 'Wordpress site with custom design system from scratch',
-          stack: [
-              `Wordpress`,
-              `Twig/Timber`,
-              `Bootstrap`,
-              `Saas`,
-          ]
-      }
+
   ]
 
   export const portfolioList = [
@@ -109,8 +111,8 @@ export const accordionData = [
       link: 'https://www.harrypottertheplay.com'
     },
     {
-      title: 'This website in Vue',
-      link: 'https://andrewbe-nuxt.netlify.app/'
+      title: 'Orlando Ballet',
+      link: 'https://orlandoballet.org/'
     },
     {
       title: 'NY Perenial Garden Vue App',
@@ -129,11 +131,38 @@ export const accordionData = [
       link: 'https://www.edgenyc.com/'
     },
     {
-      title: 'The View from the Shard',
-      link: 'https://www.theviewfromtheshard.com/'
-    },
-    {
       title: 'SkatePal',
       link: 'https://www.skatepal.co.uk/'
+    }
+  ]
+  export const homeSkillList = [
+    {
+      title: 'JavaScript'
+    },
+    {
+      title: 'TypeScript'
+    },
+    {
+      title: 'ReactJS'
+    },
+    {
+      title: 'CSS(Sass, inline, In JS)'
+    },
+    {
+      title: 'HTML5'
+    },
+    {
+      title: 'Tailwind Bootstrap BEM'
+    },
+    {
+      title: 'Figma'
+    },
+    {
+      title: 'GraphQl + Apollo'
+
+    },
+    {
+      title: 'Adobe Suite',
+
     }
   ]

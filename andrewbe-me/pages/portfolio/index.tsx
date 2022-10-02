@@ -12,20 +12,19 @@ const Portfolio: NextPage = () => {
     return(
         <div className='min-h-screen flex flex-col'>
             <Header />
-            <div className='flex flex-1 flex-col container mx-auto my-10'>
+            <div className='flex flex-1 flex-col container mx-auto mt-28 mb-48'>
                 <PageHeader pageTitle='Portfolio' />
-                <h2 className="text-4xl font-worksans mt-1">Experience <span><ExperienceYears /></span></h2>
-                <main className='my-4'>
-                    <article className='py-4'>
+                <main className='my-10 grid grid-cols-12'>
+                    <article className='col-start-1 col-end-6'>
                         <TextBody>Having worked as a Frontend developer for numerous years I have worked on 100&apos;s of websites.</TextBody>
+                        <TextBody>The main languages I use are HTML5, CSS and JavaScript. I have worked with a multitude of Content Management Systems, but predominetly Wordpress and Strapi for a headless CMS.</TextBody>
                     </article>
-                    <h2 className="text-3xl font-worksans">Most Recent Projects</h2>
-
-                    <RecentProjectList />
-
                 </main>
+                <div className='lg:pt-28'>
+                  <RecentProjectList />
+                </div>
                 <article className='py-4'>
-                    <TextBody>These are websites I’ve built and worked on recently that showcase different designs, features and coding methods:</TextBody>
+                    <TextBody>Showcase of different designs, features and coding methods:</TextBody>
                 </article>
                 <PortfolioList />
             </div>
