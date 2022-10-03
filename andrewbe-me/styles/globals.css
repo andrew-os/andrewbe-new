@@ -55,5 +55,8 @@ a {
   left: 0;
   bottom: -4px;
 }
+.gradient-bg{
+  background: linear-gradient(360deg, #5a3fd9, #a029c3, #ca08a9, #e4008e, #f42374, #fa445c, #f86149, #f17c3a);
+}
 
 /* background: linear-gradient(360deg, #5a3fd9, #a029c3, #ca08a9, #e4008e, #f42374, #fa445c, #f86149, #f17c3a); */

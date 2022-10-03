@@ -1,10 +1,11 @@
 interface PageHeaderProps{
-    pageTitle: string
+  pageTitle: string
+  twClass?: string | ''
 }
 
-export default function PageHeader({pageTitle}: PageHeaderProps){
+export default function PageHeader({pageTitle, twClass}: PageHeaderProps){
     return(
-        <h1 className="font-worksans">
+      <h1 className={`font-worksans ${twClass}`}>
             {pageTitle}
         </h1>
     )

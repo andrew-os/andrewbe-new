@@ -16,7 +16,7 @@ export default function KeySkillList(){
                 ))}
           </ul>
         <div>
-          <Button classes="bg-secondary py-4 mr-10 text-white text-xl" isLink={true} hasArrow={true} text="See More" href="myskills" onClick={clickTest} />
+          <Button classes="bg-secondary py-4 mr-10 text-white text-xl" isLink={true} hasArrow={true} text="See More" href="myskills" arrowColor="text-primary" onClick={clickTest} />
         </div>
       </div>
     )

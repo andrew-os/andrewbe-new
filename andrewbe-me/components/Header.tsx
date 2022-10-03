@@ -1,3 +1,4 @@
+import Button from "./Button"
 import MainNav from "./MainNav"
 
 interface HeaderProps{
@@ -6,8 +7,16 @@ interface HeaderProps{
 
 export default function Header({isHomePage = false}: HeaderProps){
   return (
-    <header className={`${isHomePage ? `bg-primary` : `bg-white`} shadow-md relative`}>
-      <MainNav invertColors={isHomePage} />
+    <header className={`${isHomePage ? `bg-primary` : `bg-white shadow-md `} relative`}>
+      <div className="flex flex-row items-center">
+        <MainNav invertColors={isHomePage} />
+        <Button
+          isLink={true}
+          classes={`${isHomePage ? `text-white` : `text-primary`} md:ml-16 text-xl`}
+          href="contact" text="Lets Chat"
+          hasArrow={true}
+          arrowColor={isHomePage ? `text-white` : `text-primary`} />
+      </div>
       {isHomePage ?
         (
           null

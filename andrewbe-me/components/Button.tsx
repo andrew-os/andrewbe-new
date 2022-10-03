@@ -3,9 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 interface ButtonProps{
-  onClick: React.MouseEventHandler<HTMLButtonElement>;
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
   text: string
   hasArrow?: boolean
+  arrowColor?: string
   secondaryColor?: boolean
   classes?: string
   isLink: boolean
@@ -13,13 +14,13 @@ interface ButtonProps{
 
 }
 
-function LinkButton({href, title, hasArrow, classes}){
+function LinkButton({href, title, hasArrow, classes, arrowColor}){
   return (
     <Link href={`/${href}`}>
       <a className={`${classes}`}>
         <span className="inline border-b-3 border-primary pb-1">{title}</span>
       {hasArrow ? (
-        <span className="ml-4"><FontAwesomeIcon icon={faArrowRight } className="text-primary" /></span>
+        <span className="ml-4"><FontAwesomeIcon icon={faArrowRight } className={`${arrowColor}`} /></span>
       ) : (
           null
       )}
@@ -29,12 +30,12 @@ function LinkButton({href, title, hasArrow, classes}){
   )
 }
 
-export default function Button({isLink, onClick, text, href, classes, hasArrow, secondaryColor = false }: ButtonProps) {
+export default function Button({isLink, onClick, text, href, classes, hasArrow, arrowColor, secondaryColor = false }: ButtonProps) {
   return (
     isLink ? (
-      <LinkButton href={href} title={text} hasArrow={hasArrow} classes={classes} />
+      <LinkButton href={href} title={text} hasArrow={hasArrow} classes={classes} arrowColor={arrowColor} />
     ) :(
-    <button className={`${classes} ${secondaryColor ? `bg-secondary` : `bg-orange`}`} onClick={onClick}>
+    <button className={`${classes} ${secondaryColor ? `bg-secondary` : `bg-primary`}`} onClick={onClick}>
       {text}
       </button>
     )

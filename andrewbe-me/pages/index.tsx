@@ -6,6 +6,7 @@ import ExperienceYears from '../components/ExperienceYears'
 import KeySkillList from '../components/KeySkillList'
 import TextBody from '../components/TextBody'
 import Footer from '../components/Footer'
+import Button from '../components/Button'
 
 const Home: NextPage = () => {
   return (
@@ -16,17 +17,24 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header isHomePage={true} />
-      <div className='flex flex-1 flex-col container mx-auto mt-28 mb-48'>
-        <main>
-          <PageHeader pageTitle='Hello :)' />
-          <p className='text-3xl'>My name is Andrew <br />I like to code, hack and adventure life away</p>
-          <p className="text-5xl"><ExperienceYears /></p>
-          <span className='block text-3xl'>experience</span>
-          <span className='text-3xl'>current location</span>
-          <p className='text-5xl'>Kaikoura,NZ</p>
-        </main>
+      <div className='flex flex-1 flex-col mb-48'>
+        <div className='gradient-bg'>
+          <main className='container mx-auto pt-28 pb-10'>
+            <div>
+              <PageHeader twClass='text-white' pageTitle='Hello :)' />
+              <p className='text-3xl md:py-16 text-white'>My name is Andrew <br /><br />I develop Websites and UI’s <br /><br />I like to code, hack and adventure life away</p>
+              <p className="text-5xl pt-2 pb-1 text-white"><ExperienceYears /></p>
+              <span className='block text-xl pb-1 text-white'>experience</span>
+              <span className='text-xl text-white'>current location</span>
+              <p className='text-5xl text-white'>Kaikoura,NZ</p>
+            </div>
+            <div className="pt-14">
+              <Button  isLink={false} classes={`text-white px-5 py-6 rounded-main text-xl`} text={`Heres my CV`} onClick={() => (console.log("test"))} arrowColor="text-white" />
+            </div>
+          </main>
+        </div>
 
-        <div>
+        <div className='md:mt-10 container mx-auto '>
           <KeySkillList />
         </div>
       </div>
