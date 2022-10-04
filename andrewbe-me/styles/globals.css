@@ -28,6 +28,18 @@ a {
   color: #F17c3A;
   	font-size: 1.25rem; /* 20px */
     line-height: 1.75rem; /* 28px */
+    position: relative;
+}
+.nav-link a:hover::after{
+  content: '';
+  background: #F17C3A;
+  width: 100%;
+  position: absolute;
+  width: 68%;
+  position: absolute;
+  height: 3px;
+  top: 70%;
+
 }
 .nav-link .active{
   background: #E0E1DD;
