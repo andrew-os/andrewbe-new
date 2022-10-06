@@ -8,10 +8,10 @@ const Podcasting: NextPage = () => {
     return(
         <div className='min-h-screen flex flex-col'>
             <Header />
-            <div className='flex flex-1 flex-col container mx-auto mt-28 mb-28'>
+            <div className='flex flex-1 flex-col container mx-auto mt-28 mb-28 px-5 md:px-0'>
                 <PageHeader pageTitle='Hello Podcasting' />
-                <main className='my-10 grid grid-cols-12'>
-                  <div className='col-start-1 col-end-8'>
+                <main className='my-10 md:grid md:grid-cols-12'>
+                  <div className='md:col-start-1 md:col-end-8'>
                     <TextBody>Combining a love for Radio, Film and Podcast with a BSc in Audio and Acoustics, I was co-hosting and producing a weekly movie podcast while in London</TextBody>
                     <TextBody>We had hundreds of listeners globally and had a great time doing it, culminating in film festival invites.</TextBody>
                     <TextBody>Having started this from the ground up ourselves, I would like to offer help to any other small business or person looking to have a Podcast</TextBody>

@@ -12,11 +12,11 @@ const MySkills: NextPage = () => {
     return(
         <div className='min-h-screen flex flex-col'>
             <Header />
-            <div className='flex flex-1 flex-col container mx-auto mt-28 mb-48'>
+            <div className='flex flex-1 flex-col container mx-auto mt-28 mb-48 px-5 md:px-0'>
                 <PageHeader pageTitle='MySkills' />
                 {/* <h2 className="text-4xl font-worksans">Experience <span><ExperienceYears /></span></h2> */}
-          <main className='my-10 grid grid-cols-12'>
-            <div className='col-start-1 col-end-8'>
+          <main className='my-10 md:grid md:grid-cols-12'>
+            <div className='md:col-start-1 md:col-end-8'>
                     <TextBody>I have been contracting as a Frontend Engineer, primarily using Javascript, since 2019. Contracting for international and national clients.</TextBody>
                     <TextBody>Of recent I’ve actively pursued more engineer based roles and my latest contract was a React Native App for Scannable.io having never worked with native coding in 3 months I managed to get both an Android and iOS version of the app into the respective stores.</TextBody>
                     <TextBody>I spent the years 2016 - 2019 working purely as a Front End Developer, in London.This was mostly developing sites for Wordpress with the occasional static site or Single Page App. I contributed to the companies base theme; implementing a base framework to make development quicker as well as developing a React app that displayed internal employee contact and holiday info.</TextBody>

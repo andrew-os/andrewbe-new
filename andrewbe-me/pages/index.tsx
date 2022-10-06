@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header isHomePage={true} />
-      <div className='flex flex-1 flex-col mb-48'>
+      <div className='flex flex-1 flex-col md:mb-48 mb-12'>
         <div className='gradient-bg'>
           <main className='container mx-auto pt-28 pb-10 px-5 md:px-0'>
             <div className='flex flex-col md:grid md:grid-cols-12'>

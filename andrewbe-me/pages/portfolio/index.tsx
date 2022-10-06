@@ -12,10 +12,10 @@ const Portfolio: NextPage = () => {
     return(
         <div className='min-h-screen flex flex-col'>
             <Header />
-            <div className='flex flex-1 flex-col container mx-auto mt-28 mb-48'>
+            <div className='flex flex-1 flex-col container mx-auto mt-28 mb-48 px-5 md:px-0'>
                 <PageHeader pageTitle='Portfolio' />
-                <main className='my-10 grid grid-cols-12'>
-                    <article className='col-start-1 col-end-6'>
+                <main className='my-10 md:grid md:grid-cols-12'>
+                    <article className='md:col-start-1 md:col-end-6'>
                         <TextBody>Having worked as a Frontend developer for numerous years I have worked on 100&apos;s of websites.</TextBody>
                         <TextBody>The main languages I use are HTML5, CSS and JavaScript. I have worked with a multitude of Content Management Systems, but predominetly Wordpress and Strapi for a headless CMS.</TextBody>
                         <TextBody>I am currently upskilling myself in UI and UX Design, using <a href="https://dribble.com/andrew-sans" rel='noreferrer' target="_blank" className='text-primary hover:text-secondary'>dribble</a> to portfolio my work.</TextBody>

@@ -8,10 +8,10 @@ const Play: NextPage = () => {
     return(
       <div className='min-h-screen flex flex-col'>
         <Header />
-          <div className='flex flex-1 flex-col container mx-auto mt-28 mb-48'>
+          <div className='flex flex-1 flex-col container mx-auto mt-28 mb-48 px-5 md:px-0'>
             <PageHeader pageTitle='About Me' />
-            <main className='my-10 grid grid-cols-12'>
-            <div className='col-start-1 col-end-8'>
+            <main className='my-10 md:grid md:grid-cols-12'>
+            <div className='md:col-start-1 md:col-end-8'>
               <TextBody>When I’m not at a desk I like to be outside as much as possible. I love exploring the world around me, be it the city or the countryside.</TextBody>
               <TextBody>I try to travel as much as possible, I spent a few years travelling across Asia down to Australia and back through Europe. Understanding new cultures is great and my favourite thing is to try as many of the different foods as I can and to walk around local supermarkets looking at all the products I’ve never seen and heard of.</TextBody>
               <TextBody>I’m a keen Skateboarder and Surfer. Through these I have met incredible people around the world that I’m so proud to call my friends.</TextBody>

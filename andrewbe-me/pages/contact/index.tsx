@@ -9,10 +9,10 @@ const Contact: NextPage = () => {
     return(
       <div className='min-h-screen flex flex-col'>
         <Header />
-        <div className='flex flex-1 flex-col container mx-auto mt-28 mb-48'>
+        <div className='flex flex-1 flex-col container mx-auto mt-28 mb-48 md:px-0 px-5'>
           <PageHeader pageTitle='Contact me' />
-          <main className='my-10 grid grid-cols-12'>
-            <div className='col-start-1 col-end-8'>
+          <main className='my-10 md:grid md:grid-cols-12'>
+            <div className='md:col-start-1 md:col-end-8'>
                 <TextBody>I am on my emails through the Mon - Fri week and will usually respond within 24hours.</TextBody>
                 <TextBody>Its best to contact me on email.</TextBody>
               <TextBody>Email me at - <a href="mailto:andrew.sleighweb@gmail.com" className='text-primary pb-1 hover:border-b-3 hover:border-primary'>andrew.sleighweb@gmail.com</a></TextBody>

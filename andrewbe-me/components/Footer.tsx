@@ -6,8 +6,8 @@ import { faLinkedinIn, faGithubAlt } from '@fortawesome/free-brands-svg-icons'
 
 export default function Footer(){
     return(
-        <footer className="flex flex-row justify-end">
-          <div className='md:w-3/12 bg-brand-slate py-4 px-5'>
+        <footer className="flex flex-row md:justify-end">
+          <div className='w-full md:w-3/12 bg-brand-slate py-4 px-5'>
             <ul className="flex flex-col">
               <ul className="flex flex-row">
                 <li className="mr-4">
