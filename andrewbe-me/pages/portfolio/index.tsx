@@ -7,6 +7,7 @@ import ExperienceYears from '../../components/ExperienceYears'
 import TextBody from '../../components/TextBody'
 import PortfolioList from '../../components/PorftolioList'
 import RecentProjectList from '../../components/RecentProjectList'
+import MobileMenu from '../../components/MobileMenu'
 
 const Portfolio: NextPage = () => {
     return(
@@ -30,7 +31,8 @@ const Portfolio: NextPage = () => {
                 </article>
                 <PortfolioList />
             </div>
-            <Footer />
+        <Footer />
+        <MobileMenu />
         </div>
     )
 }

@@ -7,6 +7,7 @@ import ExperienceYears from '../../components/ExperienceYears';
 import TextBody from '../../components/TextBody';
 import Accordion from '../../components/Accordion';
 import { accordionData } from '../../utils/content';
+import MobileMenu from '../../components/MobileMenu';
 
 const MySkills: NextPage = () => {
     return(
@@ -36,6 +37,7 @@ const MySkills: NextPage = () => {
             </div>
         </div>
         <Footer />
+        <MobileMenu />
       </div>
     )
 }

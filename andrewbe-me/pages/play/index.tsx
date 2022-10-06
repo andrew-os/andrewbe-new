@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Footer from '../../components/Footer'
 import Header from '../../components/Header'
+import MobileMenu from '../../components/MobileMenu'
 import PageHeader from '../../components/PageHeader'
 import TextBody from '../../components/TextBody'
 
@@ -23,6 +24,7 @@ const Play: NextPage = () => {
           </main>
         </div>
         <Footer />
+        <MobileMenu />
       </div>
     )
 }

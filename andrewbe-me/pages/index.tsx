@@ -8,6 +8,7 @@ import TextBody from '../components/TextBody'
 import Footer from '../components/Footer'
 import Button from '../components/Button'
 import PictureOfMe from '../components/PictureOfMe'
+import MobileMenu from '../components/MobileMenu'
 
 const Home: NextPage = () => {
   return (
@@ -47,6 +48,7 @@ const Home: NextPage = () => {
       </div>
 
       <Footer />
+      <MobileMenu />
     </div>
   )
 }

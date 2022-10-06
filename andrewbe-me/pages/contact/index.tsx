@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import ContactForm from '../../components/ContactForm'
 import Footer from '../../components/Footer'
 import Header from '../../components/Header'
+import MobileMenu from '../../components/MobileMenu'
 import PageHeader from '../../components/PageHeader'
 import TextBody from '../../components/TextBody'
 
@@ -24,7 +25,8 @@ const Contact: NextPage = () => {
 
           </main>
         </div>
-      <Footer />
+        <Footer />
+        <MobileMenu />
       </div>
     )
 }
