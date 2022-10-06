@@ -21,6 +21,7 @@ module.exports = {
         'brand-slate': '#373F51',
         'brand-grey': '#E0E1DD',
         'brand-pink': '#FD3E81',
+        'primary-darken': '#D97034',
       },
       borderRadius: {
         'main': '7px',

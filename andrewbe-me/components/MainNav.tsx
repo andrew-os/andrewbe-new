@@ -8,7 +8,7 @@ interface MainNavProps{
 export default function MainNav({invertColors}: MainNavProps) {
   const router = useRouter();
   return (
-    <nav className={`${invertColors ? `home-nav` : `page-nav`}`}>
+    <nav className={`${invertColors ? `home-nav` : `page-nav`} hidden md:flex`}>
       <ul className="flex flex-row justify-evenly">
           {/* <li className="nav-link">
             <Link href="/">

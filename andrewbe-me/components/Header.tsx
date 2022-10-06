@@ -9,7 +9,7 @@ interface HeaderProps{
 export default function Header({isHomePage = false}: HeaderProps){
   return (
     <header className={`${isHomePage ? `bg-primary` : `bg-white shadow-md`} relative`}>
-      <div className="container mx-auto">
+      <div className="container mx-auto px-5 md:px-0">
         <div className="flex flex-row items-center">
           <div className="flex-1">
             <Logo width={60} height={56} fillA={`${isHomePage ? `#FFFFFF` : `#F17C3A`}`} fillB={`${isHomePage ? `#FFFFFF` : `#5A3FD9`}`} />
@@ -18,9 +18,11 @@ export default function Header({isHomePage = false}: HeaderProps){
           <Button
             isLink={true}
             classes={`${isHomePage ? `text-white` : `text-primary`} md:ml-16 text-xl`}
-            href="contact" text="Lets Chat"
+            href="contact"
             hasArrow={true}
-            arrowColor={isHomePage ? `text-white` : `text-primary`} />
+            borderColor="border-white"
+            arrowColor={isHomePage ? `text-white` : `text-primary`}
+            text="Lets Chat"/>
         </div>
       </div>
         {isHomePage ?

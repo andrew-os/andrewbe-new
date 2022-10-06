@@ -48,6 +48,9 @@ a {
 .home-nav .nav-link a{
   color: white;
 }
+.home-nav .nav-link a:hover::after{
+  background: white;
+}
 .home-nav .nav-link .active{
   background: none;
 }

@@ -20,28 +20,28 @@ const Home: NextPage = () => {
       <Header isHomePage={true} />
       <div className='flex flex-1 flex-col mb-48'>
         <div className='gradient-bg'>
-          <main className='container mx-auto pt-28 pb-10'>
-            <div className='grid grid-cols-12'>
-              <div className='col-start-1 col-end-5'>
+          <main className='container mx-auto pt-28 pb-10 px-5 md:px-0'>
+            <div className='flex flex-col md:grid md:grid-cols-12'>
+              <div className='md:col-start-1 md:col-end-5'>
                 <div>
                   <PageHeader twClass='text-white' pageTitle='Hello :)' />
-                  <p className='text-xl md:py-16 text-white'>My name is Andrew <br /><br />I develop Websites and UI’s <br /><br />I like to code, hack and adventure life away</p>
-                  <p className="text-5xl pt-2 pb-1 text-white"><ExperienceYears /></p>
+                  <p className='text-xl py-8 md:py-16 text-white'>My name is Andrew <br /><br />I develop Websites and UI’s <br /><br />I like to code, hack and adventure life away</p>
+                  <p className="md:text-5xl text-3xl pt-2 pb-1 text-white"><ExperienceYears /></p>
                   <span className='block text-xl pb-1 text-white'>experience</span>
                   <span className='text-xl text-white'>current location</span>
-                  <p className='text-5xl text-white'>Kaikoura,NZ</p>
+                  <p className='md:text-5xl text-3xl text-white'>Kaikoura,NZ</p>
                 </div>
 
               </div>
                 <PictureOfMe />
             </div>
-            <div className="pt-1">
-              <Button  isLink={false} classes={`text-white px-5 py-6 rounded-main text-xl`} text={`Heres my CV`} onClick={() => (console.log("test"))} arrowColor="text-white" />
+            <div className="md:pt-1 pt-8 text-right">
+              <Button isLink={false} classes={`text-white px-5 py-6 rounded-main text-xl hover:bg-primary-darken`} text={`Heres my CV`} onClick={() => (console.log("test"))} arrowColor="text-white" />
             </div>
           </main>
         </div>
 
-        <div className='md:mt-10 container mx-auto '>
+        <div className='mt-10 container mx-auto '>
           <KeySkillList />
         </div>
       </div>
