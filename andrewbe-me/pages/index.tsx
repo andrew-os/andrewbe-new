@@ -7,6 +7,7 @@ import KeySkillList from '../components/KeySkillList'
 import TextBody from '../components/TextBody'
 import Footer from '../components/Footer'
 import Button from '../components/Button'
+import PictureOfMe from '../components/PictureOfMe'
 
 const Home: NextPage = () => {
   return (
@@ -20,15 +21,21 @@ const Home: NextPage = () => {
       <div className='flex flex-1 flex-col mb-48'>
         <div className='gradient-bg'>
           <main className='container mx-auto pt-28 pb-10'>
-            <div>
-              <PageHeader twClass='text-white' pageTitle='Hello :)' />
-              <p className='text-3xl md:py-16 text-white'>My name is Andrew <br /><br />I develop Websites and UI’s <br /><br />I like to code, hack and adventure life away</p>
-              <p className="text-5xl pt-2 pb-1 text-white"><ExperienceYears /></p>
-              <span className='block text-xl pb-1 text-white'>experience</span>
-              <span className='text-xl text-white'>current location</span>
-              <p className='text-5xl text-white'>Kaikoura,NZ</p>
+            <div className='grid grid-cols-12'>
+              <div className='col-start-1 col-end-5'>
+                <div>
+                  <PageHeader twClass='text-white' pageTitle='Hello :)' />
+                  <p className='text-xl md:py-16 text-white'>My name is Andrew <br /><br />I develop Websites and UI’s <br /><br />I like to code, hack and adventure life away</p>
+                  <p className="text-5xl pt-2 pb-1 text-white"><ExperienceYears /></p>
+                  <span className='block text-xl pb-1 text-white'>experience</span>
+                  <span className='text-xl text-white'>current location</span>
+                  <p className='text-5xl text-white'>Kaikoura,NZ</p>
+                </div>
+
+              </div>
+                <PictureOfMe />
             </div>
-            <div className="pt-14">
+            <div className="pt-1">
               <Button  isLink={false} classes={`text-white px-5 py-6 rounded-main text-xl`} text={`Heres my CV`} onClick={() => (console.log("test"))} arrowColor="text-white" />
             </div>
           </main>

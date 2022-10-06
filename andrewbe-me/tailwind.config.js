@@ -20,6 +20,7 @@ module.exports = {
         'secondary': '#5A3FD9',
         'brand-slate': '#373F51',
         'brand-grey': '#E0E1DD',
+        'brand-pink': '#FD3E81',
       },
       borderRadius: {
         'main': '7px',

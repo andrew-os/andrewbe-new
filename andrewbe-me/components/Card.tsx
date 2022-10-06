@@ -16,8 +16,8 @@ export default function Card({title, link,image, content, tags}: CardProps){
         <div className="flex px-4 pt-6 pb-3 shadow-xl relative bg-brand-grey rounded-main">
                 {/* <Image src={image} alt={`${title} image`} layout="fill" objectFit='cover' /> */}
             <div className='z-30 flex flex-col'>
-                        {/* <div className='flex-1'> */}
-          <div className='flex flex-row'>
+                        {/* <div className='flex-1'> items-center */}
+          <div className='flex flex-row flex-1 '>
             <div className='w-16 h-16 relative mr-5'>
               <Image src={image} alt={`${title} image`} layout="fixed" width="64" height="57" objectFit='cover' />
             </div>

@@ -47,7 +47,6 @@ export const accordionData = [
         title: 'Entry level',
         content: [
         `Python`,
-        `c++`
         ]
     }
   ];
