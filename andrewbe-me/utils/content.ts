@@ -55,7 +55,7 @@ export const recentProjects = [
         {
           title: 'Calo',
           link: 'https://orlandoballet.org/',
-          image: '/../public/calo-icon.png',
+          image: '/public/calo-icon.png',
           content: 'Rebranding of a digital agency site. Vue 3 with a strapi backend',
           stack: [
               `Vue3`,
@@ -68,7 +68,7 @@ export const recentProjects = [
       {
           title: 'Scannable.io',
           link: 'https://scannable.io',
-          image: '/../public/scan-iconBackground.png',
+          image: '/scan-icon-background.png',
           content: 'Native app using QR, Barcodes and NFC tags to search and log height safety equipment for user.',
           stack: [
             `React Native`,
@@ -80,7 +80,7 @@ export const recentProjects = [
       {
           title: 'Holmes',
           link: 'https://holmes-app.com/',
-          image: '/../public/holmes-logo.png',
+          image: '/holmes-logo.png',
           content: `Property reporting web app. Custom React/NextJS build from Scratch. Custom React forms submitting state to Firebase backend`,
           stack: [
               `ReactJS`,
