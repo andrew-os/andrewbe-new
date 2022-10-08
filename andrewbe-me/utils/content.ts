@@ -54,7 +54,7 @@ export const accordionData = [
 export const recentProjects = [
         {
           title: 'Calo',
-          link: 'https://orlandoballet.org/',
+          link: 'https://www.limedigital.nz/',
           image: '/calo-icon.png',
           content: 'Rebranding of a digital agency site. Vue 3 with a strapi backend',
           stack: [
