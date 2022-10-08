@@ -36,7 +36,7 @@ const Home: NextPage = () => {
               </div>
                 <PictureOfMe />
             </div>
-            <div className="md:pt-1 pt-8 text-right">
+            <div className="md:pt-1 pt-8 text-right md:text-left">
               <Button isLink={false} classes={`text-white px-5 py-6 rounded-main text-xl hover:bg-primary-darken`} text={`Heres my CV`} onClick={() => (console.log("test"))} arrowColor="text-white" />
             </div>
           </main>

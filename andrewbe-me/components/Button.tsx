@@ -24,7 +24,7 @@ function LinkButton({text, href, hasArrow, classes, arrowColor, borderColor}: Bu
       <a className={`${classes}`}>
         <span className={`inline border-b-3 border-primary pb-1 ${borderColor}`}>{text}</span>
       {hasArrow ? (
-        <span className="ml-4"><FontAwesomeIcon icon={faArrowRight } className={`${arrowColor}`} /></span>
+        <span className="pl-4 arrow-cta inline-block"><FontAwesomeIcon icon={faArrowRight } className={`${arrowColor}`} /></span>
       ) : (
           null
       )}

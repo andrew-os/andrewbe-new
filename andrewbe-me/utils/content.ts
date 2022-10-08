@@ -55,7 +55,7 @@ export const recentProjects = [
         {
           title: 'Calo',
           link: 'https://orlandoballet.org/',
-          image: '/public/calo-icon.png',
+          image: '/calo-icon.png',
           content: 'Rebranding of a digital agency site. Vue 3 with a strapi backend',
           stack: [
               `Vue3`,

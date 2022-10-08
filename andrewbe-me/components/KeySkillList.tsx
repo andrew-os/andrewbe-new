@@ -16,7 +16,7 @@ export default function KeySkillList(){
                 ))}
           </ul>
         <div className="flex justify-end">
-          <Button classes="bg-secondary py-4 md:mr-10 mr-5 text-white text-xl"
+          <Button classes="bg-secondary py-4 md:mr-10 mr-5 text-white text-xl header-cta"
             isLink={true}
             hasArrow={true}
             text="See More"

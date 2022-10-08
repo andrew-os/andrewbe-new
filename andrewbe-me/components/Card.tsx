@@ -39,8 +39,8 @@ export default function Card({title, link,image, content, tags}: CardProps){
                                     <li className="text-xxs px-2 text-secondary font-semibold" key={tag}>{tag}</li>
                                 ))}
                             </ul>
-                            <a href={link} rel="noreferrer" target="_blank" className='self-end'>
-                              <FontAwesomeIcon icon={faArrowRight} className="text-primary" />
+                            <a href={link} rel="noreferrer" target="_blank" className='self-end card-link'>
+                              <FontAwesomeIcon icon={faArrowRight} className="text-primary card-link--arrow" />
                             </a>
                           </div>
                         </footer>

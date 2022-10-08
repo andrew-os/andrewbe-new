@@ -77,7 +77,15 @@ a {
 .nav-link--mobile .active{
   color: #F17C3A;
 }
-
+.header-cta:hover .inline{
+  padding-bottom: 0.75rem;
+}
+.header-cta:hover .arrow-cta{
+  transform: translateX(10px);
+}
+.card-link:hover .card-link--arrow{
+  transform: translateX(-5px);
+}
 /* background: linear-gradient(360deg, #5a3fd9, #a029c3, #ca08a9, #e4008e, #f42374, #fa445c, #f86149, #f17c3a); */
 
 @media screen and (max-width: 768px) {

@@ -8,7 +8,7 @@ interface HeaderProps{
 
 export default function Header({isHomePage = false}: HeaderProps){
   return (
-    <header className={`${isHomePage ? `bg-primary` : `bg-white shadow-md`} relative`}>
+    <header className={`${isHomePage ? `bg-primary` : `bg-white shadow-md`} relative py-6 md:py-0`}>
       <div className="container mx-auto px-5 md:px-0">
         <div className="flex flex-row items-center">
           <div className="flex-1">
@@ -17,10 +17,10 @@ export default function Header({isHomePage = false}: HeaderProps){
             <MainNav invertColors={isHomePage} />
           <Button
             isLink={true}
-            classes={`${isHomePage ? `text-white` : `text-primary`} md:ml-16 text-xl`}
+            classes={`${isHomePage ? `text-white` : `text-primary`} md:ml-16 text-xl header-cta`}
             href="contact"
             hasArrow={true}
-            borderColor="border-white"
+            borderColor={`${isHomePage ? `border-white`: `border-primary`}`}
             arrowColor={isHomePage ? `text-white` : `text-primary`}
             text="Lets Chat"/>
         </div>
