@@ -30,7 +30,7 @@ const Home: NextPage = () => {
                   <p className="md:text-5xl text-3xl pt-2 pb-1 text-white"><ExperienceYears /></p>
                   <span className='block text-xl pb-1 text-white'>experience</span>
                   <span className='text-xl text-white'>current location</span>
-                  <p className='md:text-5xl text-3xl text-white'>Kaikoura,NZ</p>
+                  <p className='md:text-5xl text-3xl text-white'>Bath,UK</p>
                 </div>
 
               </div>
@@ -42,7 +42,7 @@ const Home: NextPage = () => {
           </main>
         </div>
 
-        <div className='mt-10 container mx-auto '>
+        <div className='mt-10 container mx-auto px-5 md:px-0'>
           <KeySkillList />
         </div>
       </div>

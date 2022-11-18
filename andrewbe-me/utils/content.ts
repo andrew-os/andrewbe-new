@@ -106,7 +106,7 @@ export const recentProjects = [
       link: 'https://www.studiocanal.com/'
     },
     {
-      title: 'Harry Potter and the Cursed Child (UK,US,DE, AU)',
+      title: 'Harry Potter and the Cursed Child',
       link: 'https://www.harrypottertheplay.com'
     },
     {

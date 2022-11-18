@@ -8,7 +8,7 @@ function clickTest() {
 export default function KeySkillList(){
     return (
       <div className="bg-secondary py-4 flex flex-col md:flex-row justify-between">
-            <ul className="flex md:flex-row items-center px-5 md:px-10 py-7 md:py-0 scroll-snap--slider">
+            <ul className="flex md:flex-row items-center md:px-10 py-7 md:py-0 scroll-snap--slider">
                 {homeSkillList.map(({title}) => (
                     <li className="inline-block md:flex snap-slide--item" key={title}>
                         <SkillListItem title={title}  />

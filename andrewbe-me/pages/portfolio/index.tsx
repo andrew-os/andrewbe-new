@@ -20,7 +20,6 @@ const Portfolio: NextPage = () => {
                         <TextBody>Having worked as a Frontend developer for numerous years I have worked on 100&apos;s of websites.</TextBody>
                         <TextBody>The main languages I use are HTML5, CSS and JavaScript. I have worked with a multitude of Content Management Systems, but predominetly Wordpress and Strapi for a headless CMS.</TextBody>
                         <TextBody>I am currently upskilling myself in UI and UX Design, using <a href="https://dribble.com/andrew-sans" rel='noreferrer' target="_blank" className='text-primary hover:text-secondary'>dribble</a> to portfolio my work.</TextBody>
-              {/* https://dribbble.com/andrew-sans */}
                     </article>
                 </main>
                 <div className='lg:pt-28'>
@@ -31,8 +30,8 @@ const Portfolio: NextPage = () => {
                 </article>
                 <PortfolioList />
             </div>
-        <Footer />
-        <MobileMenu />
+          <Footer />
+          <MobileMenu />
         </div>
     )
 }

@@ -6,6 +6,6 @@ interface SkillListItemProps{
 
 export default function SkillListItem({title}: SkillListItemProps){
     return(
-        <p className="text-white text-xs mr-4" >{title}</p>
+        <p className="text-white text-xs mr-4 whitespace-nowrap" >{title}</p>
     )
 }

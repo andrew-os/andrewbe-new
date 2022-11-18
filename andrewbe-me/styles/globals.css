@@ -96,6 +96,11 @@ a {
     overflow-x: scroll;
   }
   .snap-slide--item{
+        --peek: 3rem;
+        --gutter: 1.5rem;
+    scroll-snap-align: center;
+    width: calc(100% - var(--peek) * 2);
+    margin: 0 calc(var(--gutter) / 2);
     scroll-snap-align: center;
   }
 

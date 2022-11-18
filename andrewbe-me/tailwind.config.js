@@ -13,7 +13,8 @@ module.exports = {
 
       },
       fontSize: {
-        'xxs': ['10px', '18px']
+        'xxs': ['10px', '18px'],
+        'xios': ['11px', '19px']
       },
       colors: {
         'primary': '#F17C3A',
