@@ -1,7 +1,7 @@
 export default function ContactForm() {
   return (
     // eslint-disable-next-line react/no-unknown-property
-    <form name="contact" method="POST" data-netlify="true" action="/success" netlify-honeypot="bot-field">
+    <form  name="contact" method="POST" data-netlify="true" action="/success" netlify-honeypot="bot-field">
       <input type="hidden" name="subject" value="andrewbeme web enquiry"  />
         <p className="hidden">
           <label>

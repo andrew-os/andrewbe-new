@@ -51,6 +51,46 @@ export const accordionData = [
     }
   ];
 
+export const recentDesignProjects = [
+  {
+    title: 'Lakes Audio NZ',
+    link: 'https:///www.lakesaudio.co.nz',
+    image: '',
+    content: 'Branding, web design and development of a new business start up; font selection and theme colors.',
+    stack: [
+      `Figma`,
+      `Branding`,
+      `Icon set`,
+      `Imagery`,
+      `Dark UI`,
+
+    ]
+  },
+  {
+    title: 'Kayak Scilly',
+    link: 'https:///www.kayakscilly.com',
+    image: '',
+    content: 'Web design and dev of existing branding briefed on printed flyers that contained font and orange color.',
+    stack: [
+      `Adventure identity`,
+      `One page site`,
+      `Existing branding`,
+
+    ]
+  },
+  {
+    title: 'Shamrock Accommodation',
+    link: 'https:///www.kayakscilly.com',
+    image: '',
+    content: 'Web design and dev of an existing business that had no online prescence.',
+    stack: [
+      `Font selection`,
+      `Branding`,
+      `Identity based on customer liasons`,
+
+    ]
+  },
+]
 export const recentProjects = [
         {
           title: 'Calo',
